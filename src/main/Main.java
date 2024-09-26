@@ -19,7 +19,7 @@ public class Main {
         String pin_cuenta = "password";
 
         // Crear una cuenta y cliente para probar el sistema
-        Cuenta cuenta = new Cuenta(numero_cuenta, saldo_inicial);
+        Cuenta cuenta = new Cuenta(numero_cuenta, saldo_inicial,pin_cuenta);
         Cliente cliente = new Cliente("Juan Pérez", cuenta);
 
         // Crear la interfaz de usuario
